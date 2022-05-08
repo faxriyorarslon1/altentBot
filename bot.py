@@ -117,7 +117,7 @@ def get_text(message):
     elif message.text == "💻Backend":
         txt1 = '''💻Backend
 
-📆 Kurs davomiyligi: 6 oy
+📆 Kurs davomiyligi: 7 oy
 🗓 1 haftada 3 kun dars
 🕒 1 kunda 2 soat
 
@@ -166,8 +166,6 @@ def get_text(message):
         bot.send_message(message.chat.id,'''🌐Bizning ijtimoy tarmoqlarimiz
 
 ✔️Telegram: https://t.me/altent_lc
-✔️InStagram: https://www.instagram.com/altent_lc/
-✔️TikTok: https://vt.tiktok.com/ZSd5SWqRX/
 ✔️Facebook: https://m.facebook.com/altent.lc
 ✔️YouTube:https://youtube.com/channel/UCMOgpz8rewPf8ZRXN3nkZQA''')
     elif message.text == "🎥Qisqacha vidyolavha":
